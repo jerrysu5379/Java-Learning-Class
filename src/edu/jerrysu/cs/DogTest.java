@@ -1,4 +1,4 @@
-package uk.jerry.cs;
+package edu.jerrysu.cs;
 
 public class DogTest {
     public static void main(String[] args) {

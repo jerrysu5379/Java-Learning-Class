@@ -29,4 +29,10 @@ public class Homework {
     protected Integer getGrade(Enrollee enrollee) {
         return this.studentGrades.get(enrollee);
     }
+    public boolean equals(Object other) {
+        if (other == null) return false;
+        if (!(other instanceof Homework)) return false;
+        Homework asHomework = (Homework) other;
+        return asHomework.getName().equals(this.getName());
+    }
 }

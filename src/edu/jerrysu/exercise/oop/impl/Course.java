@@ -1,6 +1,7 @@
 package edu.jerrysu.exercise.oop.impl;
 
 import java.util.Set;
+import java.util.HashSet;
 
 public class Course {
     private final String name;
@@ -15,5 +16,7 @@ public class Course {
         this.name = name;
         this.year = year;
         this.capacity = capacity;
+        this.homeworks = new HashSet<>();
+        this.enrollees = new HashSet<>();
     }
 }

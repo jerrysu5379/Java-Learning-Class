@@ -7,5 +7,4 @@ public interface IInstructor {
                      String homeworkName, String stuName, int grade);
     void homeWorkExists(String className, int year, String homeworkName);
     Integer getGrade(String className, int year, String homeworkName, String stuName);
-
 }
